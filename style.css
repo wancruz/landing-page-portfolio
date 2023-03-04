@@ -13,6 +13,7 @@ body, header {
   font-family: 'Roboto Slab', serif;
   background-color: black;
   font-size: 1.6rem;
+  margin-top: 5rem;
   /*background-image: url("imagens/enfeite-removebg-preview.png");
   background-size: 20rem;
   background-repeat:repeat-y;
@@ -40,6 +41,7 @@ header nav {
   gap:4rem;
   padding: 5rem;  
   margin-right: 10rem;
+  cursor: pointer;
 }
 
 main {
@@ -48,6 +50,7 @@ main {
   align-items: center;
   margin-left: 30rem;
   margin-right: 20rem;
+  margin-top: 10rem;
   
 }
 
@@ -72,11 +75,11 @@ p{
 .menus h1 {
   color: #ffffff;
   font-size: 5rem;
-  margin-top: 20rem;
+  margin-top: 30rem;
 }
 
 #sobre h1 {
-  margin-top: 0;
+  margin-top: 18rem;
 }
 
 .menus {
@@ -192,6 +195,7 @@ button {
   font-size: 2rem;
   font-weight: bold;
   background-color: #9678D6;
+  cursor: pointer;
  
 }
 footer img {
@@ -213,4 +217,5 @@ footer {
 #img-footer {
   display: flex;
   gap: 3rem;
+  cursor: pointer;
 }
