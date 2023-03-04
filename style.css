@@ -7,3 +7,28 @@
 :root {
   font-size: 62.5%;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+header {
+  background-color: black;
+  color:#ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 26rem;
+}
+
+header nav {
+  font-size: 2rem;
+  display: flex;
+  list-style: none;
+  gap:3rem;
+  padding: 5rem;  
+}
